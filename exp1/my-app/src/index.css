@@ -1,0 +1,32 @@
+*{
+  top: 0;
+  margin: 0px;padding: 0px;
+}
+.header{
+
+  width:100%;
+  height: 100px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.main{
+  width: 100%;
+  height:100vh;
+  
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  width: 100%;
+  height:100px;
+  display: flex;
+  flex-direction: row;
+  background-color:cadetblue;
+  justify-content: center;
+  align-items: center;
+}

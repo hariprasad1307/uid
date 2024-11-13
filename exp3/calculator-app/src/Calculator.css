@@ -1,0 +1,85 @@
+/* Spotify Themed Calculator Layout */
+.calculator.spotify-theme {
+    max-width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #191414; /* Spotify dark theme background */
+    color: #ffffff; /* Text color white */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Display Area Styling */
+  .display {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333; /* Darker background for the display area */
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .display input {
+    font-size: 2rem;
+    padding: 15px;
+    border: none;
+    text-align: right;
+    background-color: transparent;
+    color: #1db954; /* Spotify green color for text */
+    outline: none;
+  }
+  
+  .result {
+    font-size: 1.4rem;
+    color: #b3b3b3; /* Light grey for secondary text */
+    text-align: right;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  /* Button Grid Layout */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  /* Button Styling */
+  .buttons button {
+    font-size: 1.5rem;
+    padding: 15px;
+    border: none;
+    border-radius: 50px; /* Rounded buttons like Spotify */
+    background-color: #1db954; /* Spotify green */
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+  }
+  
+  /* Hover and Active States for Buttons */
+  .buttons button:hover {
+    background-color: #1ed760; /* Slightly lighter green for hover effect */
+    transform: scale(1.05);
+  }
+  
+  .buttons button:active {
+    background-color: #14833b; /* Darker green for active state */
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3);
+    transform: scale(0.98);
+  }
+  
+  /* Equals Button Styling */
+  .buttons .equals {
+    background-color: #1db954; /* Same Spotify green for consistency */
+  }
+  
+  .buttons .equals:hover {
+    background-color: #1ed760;
+  }
+  
+  .buttons .equals:active {
+    background-color: #14833b;
+  }
+  

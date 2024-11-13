@@ -1,0 +1,89 @@
+/* Base Styles */
+body {
+  background-color: #141414;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #181818;
+}
+
+.logo {
+  font-size: 24px;
+  color: #e50914;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #e50914;
+}
+
+/* Home Page */
+.home {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Products Grid */
+.products-container {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #181818;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  transition: transform 0.3s ease;
+}
+
+.product-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product-card:hover {
+  transform: scale(1.1);
+}
+
+/* Cart Page */
+.cart {
+  padding: 100px 20px;
+  text-align: center;
+}
